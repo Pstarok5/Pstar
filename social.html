@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title> Social Medias </title>
+
+<style>
+		.last {
+			border:2px solid grey;
+			position:relative;
+			width:130px;
+			height:50px;
+			background-color:blue;
+			display:inline-block;
+			border-radius:100px;
+			
+	}
+
+
+
+		.last::after {
+			content:'';
+			position:absolute;
+			background-color:white;
+			width:40px;
+			display:inline-block;
+			height:40px;
+			top:5px;
+			left:2px;
+			border-radius:100px;
+			transition: all .3s;
+			cursor:pointer;
+			
+			
+	}
+
+
+
+
+
+	#anyone:checked + .last::after {
+		left:90px;
+		
+		
+		
+		
+	}
+
+
+
+
+	#anyone {
+			appearance:none;
+	}
+	
+
+
+
+
+
+	
+	#gid {
+			border:1px solid blue;
+			width:268px;
+			height:300px;
+			background-color:blue;
+			position:relative;
+			margin-top:2rem;
+			border-radius:6px;
+			margin-left:5rem;
+			transition:transform ease-in-out .3s;
+			cursor:pointer;
+			flex-direction:row;
+
+	}
+
+
+
+
+
+
+
+	#gid:hover {
+		transform: scale(1.2);
+	}
+
+
+
+
+
+
+
+
+	.lit {
+			border:10px;
+			width:270px;
+			height:296px;
+			background-color:black;
+			margin-top:6px;
+			margin-left:-1px;
+			position:absolute;
+			border-radius:3px;
+			cursor:pointer;
+			
+	}
+
+
+
+
+
+
+	#kit {
+			border:1px solid black;
+			width:300px;
+			height:200px;
+			background-color:black;
+			margin-left:1rem;
+			border-radius:4px;
+			position:relative;
+			cursor:pointer;
+	}
+
+
+
+
+
+
+
+	#yoo {
+			border:1px solid black;
+			margin-top:3rem;
+			width:295px;
+			height:200px;
+			margin-left:1rem;
+			background-color:black;
+			position:relative;
+			border-radius:5px;
+	}
+
+
+
+
+	.pit {
+			display:flex; 
+			margin-left:-4rem;
+			flex-direction:row;
+	}
+
+
+
+
+
+
+
+	.lie {
+			display:flex;
+	}
+
+
+
+
+
+	.van {
+			display:flex;
+	}
+
+
+
+
+
+
+	.fit {
+			display:flex; 
+			justify-content:space-evenly; 
+			align-items:center;
+		
+	}
+
+
+
+
+
+	@media screen and (max-width:500px) {
+
+	
+
+		.pit {
+			flex-direction:column;
+	}
+
+
+
+
+	#gid {
+			flex-direction:column;
+	}
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+</style>
+
+
+</head>
+
+<body style="background-color:grey">
+
+
+
+
+	<div class="fit">
+		
+		<div>
+			<h1 style="color:white; font-family:arial; margin-left:-7rem"> Social Media Dashboard </h1>
+			<p style="color:lightgrey; font-family:arial; margin-left:-7rem"> Total Followers: 23,004 </p>
+		</div>
+
+		
+	
+
+
+		<div style="color:white; font-family:Agency FB; display:flex;  font-size:19px; margin-left:29rem">
+			<p style="margin-top:14px; font-family:arial"> Dark Mode </p>
+		
+			<input type="checkbox" id="anyone">
+			<label for="anyone" class="last"> </label>
+
+		</div>
+
+	
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="pit">
+
+
+		<div id="gid">
+
+
+			<div class="lit"> </div>
+
+
+			<div style="display:flex; position:absolute; margin-top:1rem; align-items:center; margin-top:2rem; margin-left:6rem">
+
+				<div>
+					<img src="facebook.svg" width="30" height="auto">
+
+				</div>
+
+
+				<div style="color:grey; margin-left:1rem; font-family:arial">
+					<p> @nathanf </p>
+				</div>
+
+				
+			</div>
+
+			
+				<div style="color:white; position:absolute; margin-top:4rem; margin-left:5rem">
+					<h1 style="font-size:50px; font-family:arial"> 1987 <br> </h1>
+
+					<div style="color:grey; font-size:18px;  font-family:arial">
+					<p style="margin-top:-23px"> FOLLOWERS <br><br> </P>
+					</div>
+
+					<div style="margin-left:1rem; color:green; font-family:arial; font-size:17px">
+					<p> ^ 12 Today </p>
+					</div>
+
+
+				</div>
+
+		
+		</div>
+
+
+
+
+
+
+
+
+		
+		<div id="gid">
+
+
+			<div class="lit"> </div>
+
+
+			<div style="display:flex; position:absolute; margin-top:1rem; align-items:center; margin-top:2rem; margin-left:6rem">
+
+				<div>
+					<img src="twitter.svg" width="30" height="auto">
+
+				</div>
+
+
+				<div style="color:grey; margin-left:1rem; font-family:arial">
+					<p> @nathanf </p>
+				</div>
+
+				
+			</div>
+
+			
+				<div style="color:white; position:absolute; margin-top:4rem; margin-left:5rem">
+					<h1 style="font-size:50px; font-family:arial"> 1044 <br> </h1>
+
+					<div style="color:grey; font-size:18px;  font-family:arial">
+					<p style="margin-top:-23px"> FOLLOWERS <br><br> </P>
+					</div>
+
+					<div style="margin-left:1rem; color:green; font-family:arial; font-size:17px">
+					<p> ^ 99 Today </p>
+					</div>
+
+
+				</div>
+
+		
+		</div>
+
+
+
+
+
+
+
+
+		
+		<div id="gid" style="background-image:linear-gradient(to right,darkorange,magenta)">
+
+
+			<div class="lit"> </div>
+
+
+			<div style="display:flex; position:absolute; margin-top:1rem; align-items:center; margin-top:2rem; margin-left:6rem">
+
+				<div>
+					<img src="instagram.svg" width="30" height="auto">
+
+				</div>
+
+
+				<div style="color:grey; margin-left:1rem; font-family:arial">
+					<p> @realnathanf </p>
+				</div>
+
+				
+			</div>
+
+			
+				<div style="color:white; position:absolute; margin-top:4rem; margin-left:5rem">
+					<h1 style="font-size:50px; font-family:arial"> 11k <br> </h1>
+
+					<div style="color:grey; font-size:18px;  font-family:arial">
+					<p style="margin-top:-23px"> FOLLOWERS <br><br> </P>
+					</div>
+
+					<div style="margin-left:1rem; color:green; font-family:arial; font-size:17px">
+					<p> ^ 1099 Today </p>
+					</div>
+
+
+				</div>
+
+		
+		</div>
+
+
+
+
+
+
+
+
+
+		
+		<div id="gid" style="background-color:red">
+
+
+			<div class="lit"> </div>
+
+
+			<div style="display:flex; position:absolute; margin-top:1rem; align-items:center; margin-top:2rem; margin-left:6rem">
+
+				<div>
+					<img src="youtube.svg" width="30" height="auto">
+
+				</div>
+
+
+				<div style="color:grey; margin-left:1rem; font-family:arial">
+					<p> Nathan F. </p>
+				</div>
+
+				
+			</div>
+
+			
+				<div style="color:white; position:absolute; margin-top:4rem; margin-left:5rem">
+					<h1 style="font-size:50px; font-family:arial"> 8239 <br> </h1>
+
+					<div style="color:grey; font-size:18px;  font-family:arial">
+					<p style="margin-top:-23px"> FOLLOWERS <br><br> </P>
+					</div>
+
+					<div style="margin-left:1rem; color:green; font-family:arial; font-size:17px">
+					<p> ^ 144 Today </p>
+					</div>
+
+
+				</div>
+
+		
+		</div>
+	
+
+	</div>
+
+
+
+
+		<div style="color:white; margin-top:4rem; margin-left:2rem; font-family:arial">
+			<h1> Overview - Today </h1>
+		</div>
+
+
+
+
+		
+
+
+
+
+
+
+
+	<div class="lie">
+
+
+		<div id="kit">
+
+
+		    <div style="display:flex; align-items:center; margin-top:2rem; margin-left:2rem">
+
+			<div style="color:grey; font-family:arial; font-size:18px">
+				<p> Page Views </p>
+			</div>
+
+
+			<div style="margin-left:7rem">
+				<img src="facebook.svg" width="30" height="auto">
+			</div>
+
+
+	            </div>
+
+
+
+
+		    <div style="display:flex; align-items:center; margin-left:2rem">
+
+			<div style="color:white; font-family:arial; font-size:19px">
+				<h1> 87 </h1>
+			</div>
+
+
+
+			<div style="color:green; margin-left:10rem; font-family:arial; font-size:18px">
+				<p> ^3% </p>
+			</div>
+
+
+		   </div>
+
+
+	</div>
+
+
+
+
+
+
+	
+		<div id="kit" style="margin-left:2rem">
+
+
+		    <div style="display:flex; align-items:center; margin-top:2rem; margin-left:2rem">
+
+			<div style="color:grey; font-family:arial; font-size:18px">
+				<p> Likes </p>
+			</div>
+
+
+			<div style="margin-left:10rem">
+				<img src="facebook.svg" width="30" height="auto">
+			</div>
+
+
+	            </div>
+
+
+
+
+		    <div style="display:flex; align-items:center; margin-left:2rem">
+
+			<div style="color:white; font-family:arial; font-size:19px">
+				<h1> 52 </h1>
+			</div>
+
+
+
+			<div style="color:red; margin-left:10rem; font-family:arial; font-size:18px">
+				<p> ^2% </p>
+			</div>
+
+
+		   </div>
+
+
+	</div>
+		
+
+
+
+	
+		<div id="kit" style="margin-left:2rem">
+
+
+		    <div style="display:flex; align-items:center; margin-top:2rem; margin-left:2rem">
+
+			<div style="color:grey; font-family:arial; font-size:18px">
+				<p> Likes </p>
+			</div>
+
+
+			<div style="margin-left:10rem">
+				<img src="instagram.svg" width="30" height="auto">
+			</div>
+
+
+	            </div>
+
+
+
+
+		    <div style="display:flex; align-items:center; margin-left:2rem">
+
+			<div style="color:white; font-family:arial; font-size:19px">
+				<h1> 5462 </h1>
+			</div>
+
+
+
+			<div style="color:green; margin-left:6rem; font-family:arial; font-size:18px">
+				<p> ^2257% </p>
+			</div>
+
+
+		   </div>
+
+
+	</div>
+
+		
+		
+
+
+	
+		<div id="kit" style="margin-left:2rem">
+
+
+		    <div style="display:flex; align-items:center; margin-top:2rem; margin-left:2rem">
+
+			<div style="color:grey; font-family:arial; font-size:18px">
+				<p> Profile Views </p>
+			</div>
+
+
+			<div style="margin-left:6rem">
+				<img src="instagram.svg" width="30" height="auto">
+			</div>
+
+
+	            </div>
+
+
+
+
+		    <div style="display:flex; align-items:center; margin-left:2rem">
+
+			<div style="color:white; font-family:arial; font-size:19px">
+				<h1> 52k </h1>
+			</div>
+
+
+
+			<div style="color:green; margin-left:7rem; font-family:arial; font-size:18px">
+				<p> ^1375% </p>
+			</div>
+
+
+		   </div>
+
+
+	</div>
+
+</div>
+
+
+
+
+
+
+
+
+  <div class="van">
+
+
+	<div id="yoo">
+
+
+	      <div style="position:absolute; margin-top:1rem; display:flex; align-items:center; margin-left:2rem">
+
+	
+		<div style="color:grey; font-family:arial; font-size:18px">
+			<p> Retweets </p>
+		</div>
+	
+
+		<div style="margin-left:8rem">
+			<img src="twitter.svg" width="30" height="auto"> 
+		</div>
+
+		
+              </div>
+
+
+
+
+
+
+	    <div style="position:absolute; margin-top:6rem; display:flex; align-items:center; margin-left:2rem">
+
+		<div style="color:white; font-family:arial; font-size:18px">
+			<h1> 117 </h1>
+		</div>
+
+
+		<div style="color:green; margin-left:8rem; font-family:arial; font-size:18px">
+			<p> ^303% </p>
+		</div>
+
+
+	     </div>
+
+		
+	</div>
+
+
+
+
+
+
+
+ 
+	
+	<div id="yoo" style="margin-left:2.4rem">
+
+
+	      <div style="position:absolute; margin-top:1rem; display:flex; align-items:center; margin-left:2rem">
+
+	
+		<div style="color:grey; font-family:arial; font-size:18px">
+			<p> Likes </p>
+		</div>
+	
+
+		<div style="margin-left:10rem">
+			<img src="twitter.svg" width="30" height="auto"> 
+		</div>
+
+		
+              </div>
+
+
+
+
+
+
+	    <div style="position:absolute; margin-top:6rem; display:flex; align-items:center; margin-left:2rem">
+
+		<div style="color:white; font-family:arial; font-size:18px">
+			<h1> 507 </h1>
+		</div>
+
+
+		<div style="color:green; margin-left:8rem; font-family:arial; font-size:18px">
+			<p> ^553% </p>
+		</div>
+
+
+	     </div>
+
+		
+	</div>
+
+
+
+
+
+
+
+	
+	<div id="yoo" style="margin-left:2.4rem">
+
+
+	      <div style="position:absolute; margin-top:1rem; display:flex; align-items:center; margin-left:2rem">
+
+	
+		<div style="color:grey; font-family:arial; font-size:18px">
+			<p> Likes </p>
+		</div>
+	
+
+		<div style="margin-left:10rem">
+			<img src="youtube.svg" width="30" height="auto"> 
+		</div>
+
+		
+              </div>
+
+
+
+
+
+
+	    <div style="position:absolute; margin-top:6rem; display:flex; align-items:center; margin-left:2rem">
+
+		<div style="color:white; font-family:arial; font-size:18px">
+			<h1> 107 </h1>
+		</div>
+
+
+		<div style="color:red; margin-left:8rem; font-family:arial; font-size:18px">
+			<p> ^19% </p>
+		</div>
+
+
+	     </div>
+
+		
+	</div>
+
+
+
+
+
+
+	
+	<div id="yoo" style="margin-left:2.4rem">
+
+
+	      <div style="position:absolute; margin-top:1rem; display:flex; align-items:center; margin-left:2rem">
+
+	
+		<div style="color:grey; font-family:arial; font-size:18px">
+			<p> Total Views </p>
+		</div>
+	
+
+		<div style="margin-left:7rem">
+			<img src="youtube.svg" width="30" height="auto"> 
+		</div>
+
+		
+              </div>
+
+
+
+
+
+
+	    <div style="position:absolute; margin-top:6rem; display:flex; align-items:center; margin-left:2rem">
+
+		<div style="color:white; font-family:arial; font-size:18px">
+			<h1> 1407 </h1>
+		</div>
+
+
+		<div style="color:red; margin-left:7rem; font-family:arial; font-size:18px">
+			<p> ^12% </p>
+		</div>
+
+
+	     </div>
+
+		
+	</div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+</body>
+
+
+
+
+
+</html>
